@@ -50,9 +50,13 @@
     object-fit: cover;
 }
 
-.thumb.active {
+.thumb.active{
     border: 2px solid #ccc;
+}
+
+.thumb.active, .thumb:hover{
     opacity: 1;
+    transition-duration: 0.5s;
 }
 
 .prev, .next {
